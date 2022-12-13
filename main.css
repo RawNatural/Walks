@@ -1,0 +1,100 @@
+body {
+}
+
+#altitudeStuff p {
+    color: purple;
+}
+
+#altitudeStuff {
+    border-style: dashed;
+}
+
+h1 {
+    background-color: #cccccc;
+    border-style: dashed;
+    width: 25%;
+    display: flex;
+    justify-content: center;
+
+
+
+}
+
+li{
+    display: flex;
+}
+
+#newHeight:after {
+    content: "(cm)"
+}
+
+h4 {
+    display: flex;
+}
+
+#map { height: 700px;
+}
+
+#editProfileFieldset {
+    width: 50%;
+    opacity: 70%;
+}
+
+#editProfileForm {
+    display: flex;
+    flex-direction: column;
+}
+
+.editProfileInput {
+    margin-bottom: 10px;
+}
+
+.editProfileLabel {
+    font-style: oblique;
+    font-size: 120%;
+}
+
+#registerForm {
+    display: flex;
+    border-style: dashed;
+    flex-direction: column;
+    /*background: #1fffd5; */
+    /*flex-flow: wrap */
+}
+
+.registerInput {
+    margin-bottom: 10px;
+    width: 45%;
+}
+
+.registerLabel {
+    font-style: oblique;
+    font-size: 120%;
+    font-weight: bold;
+}
+
+.registerLabel:after {
+    content: "*";
+    color: red;
+}
+input:after { content:"*"; }
+
+.outerList {
+    display: flex;
+    border-style: groove;
+    margin: 5px;
+    height: 20px;
+    font-size: 120%;
+}
+.innerList {
+    display: inline-block;
+    border-right-style: groove;
+    border-left-style: groove;
+    justify-content: space-evenly;
+    background-color: lightpink;
+}
+.outerUL {
+}
+.innerUL {
+    display: inline-block;
+}
